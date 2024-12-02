@@ -1,8 +1,8 @@
-var buttons = document.getElementsByTagName('button');
+const buttons = document.getElementsByTagName('button');
 
 for(var i = 0; i < buttons.length; i += 1) {
-	var button = buttons[i];
-	var buttonName = button.innerHTML;
+	const button = buttons[i];
+	const buttonName = button.innerHTML;
 	button.addEventListener('click', function() {
 		console.log(buttonName);
 	});
