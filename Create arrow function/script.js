@@ -1,4 +1,4 @@
 const greet = (val) => {
   return `Hi, ${val}!`;
-  greet('cool coders');
 };
+greet("cool coders");
