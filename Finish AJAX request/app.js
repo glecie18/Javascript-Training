@@ -5,6 +5,6 @@ request.onreadystatechange = function () {
   }
 };
 
-request.open('GET', 'footer.html');
+request.open('GET', 'index.html');
 
 request.send();
