@@ -11,5 +11,5 @@ xhr.onreadystatechange = function() {
   }
 };
 
-xhr.open('GET', 'sidebar.html');
+xhr.open('GET', 'index.html');
 xhr.send();
