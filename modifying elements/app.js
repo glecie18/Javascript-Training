@@ -1,2 +1,2 @@
-let inputValue = document.querySelector('input').value;
+const inputValue = document.querySelector('input').value;
 document.querySelector('.info').textContent = inputValue;
