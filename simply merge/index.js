@@ -1,9 +1,9 @@
-var utilities = require("./utilities");
+const utilities = require("./utilities");
 
-var mailValues = {};
+const mailValues = {};
 
 mailValues.first_name = "Glecie";
 
-var emailTemplate = "Hi %first_name%! Thanks for completing this code challenge :)";
+const emailTemplate = "Hi %first_name%! Thanks for completing this code challenge :)";
 
-var mergedContent = utilities.merge(emailTemplate, mailValues);
+const mergedContent = utilities.merge(emailTemplate, mailValues);
