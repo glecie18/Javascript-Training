@@ -1,5 +1,5 @@
-var http = require("http");
-var routes = require("./routes");
+const http = require("http");
+const routes = require("./routes");
 
 http.createServer(function(request, response) {
     
