@@ -1,3 +1,3 @@
-let navigationLinks = document.querySelectorAll('nav a');
-let galleryLinks = document.querySelectorAll('#gallery a');
-let footerImages = document.querySelectorAll('footer img');
+const navigationLinks = document.querySelectorAll('nav a');
+const galleryLinks = document.querySelectorAll('#gallery a');
+const footerImages = document.querySelectorAll('footer img');
