@@ -23,8 +23,8 @@ $(document).ready(function() {
   // 6. Inside the click handler, create a working restaurant review form.
   $('#submitBtn').click(function() {
     // a. Get the values of the input fields
-    var restaurantName = $('#restaurantName').val();
-    var restaurantReview = $('#restaurantReview').val();
+    const restaurantName = $('#restaurantName').val();
+    const restaurantReview = $('#restaurantReview').val();
 
     // b. Insert the restaurant name value into the #newRestaurant h3 tag
     $('#newRestaurant h3').text(restaurantName);
